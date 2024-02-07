@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+.container{
+    width: 100%;
+    margin: 0;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 3rem;
+}
+a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+}
+.home{
+    padding: 0px 25px 0px 25px ;
+}
+.sua{
+    padding-top: 15px;
+}
+.sud{
+    padding-top: 15px;
+}
+.contact{
+    border: 1px solid transparent;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: #815b3a;
+    color: white;
+}
+.add{
+    margin-top: 20px;
+}
+@media(max-width:768px){
+    .row{
+        width: 800px;
+    }
+    .add{
+        width: 800px;
+    }
+}
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="row">
+                <div>
+                    <img src="images/Group 1000005866.png" alt="">
+                </div>
+                <div class="sua">
+                    <a class="home" href="#">about</a>
+                    <a class="home" href="#">home</a>
+                    <a class="home" href="#">projects</a>
+                </div>
+                <div class="sud">
+                    <a class="contact" href="#">contact us</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="add">
+        <div>
+            <img src="images/image 30.svg" alt="" width="100%">
+        </div>
+    </section>
+</body>
+</html>
